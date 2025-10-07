@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آراء العملاء</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <h1>آراء العملاء</h1>
+
+  <section class="reviews">
+    <div class="review">
+      <img src="assets/images/user1.png" alt="عميل 1">
+      <p>هذا تعليق تجريبي للعميل الأول.</p>
+      <div class="review-actions">
+        <span class="edit">✏️</span>
+        <span class="delete">🗑️</span>
+      </div>
+    </div>
+    <div class="review">
+      <img src="assets/images/user2.png" alt="عميل 2">
+      <p>هذا تعليق تجريبي للعميل الثاني.</p>
+      <div class="review-actions">
+        <span class="edit">✏️</span>
+        <span class="delete">🗑️</span>
+      </div>
+    </div>
+    <div class="review">
+      <img src="assets/images/user3.png" alt="عميل 3">
+      <p>هذا تعليق تجريبي للعميل الثالث.</p>
+      <div class="review-actions">
+        <span class="edit">✏️</span>
+        <span class="delete">🗑️</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="add-review">
+    <h2>أضف رأيك</h2>
+    <form id="reviewForm" action="https://formspree.io/f/mnqrlvdp" method="POST">
+      <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+      <textarea name="comment" placeholder="اكتب تعليقك هنا" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

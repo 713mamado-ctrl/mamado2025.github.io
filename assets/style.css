@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.review {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.review img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.review p {
+  margin: 0 0 10px 0;
+}
+.review-actions {
+  display: flex;
+  gap: 15px;
+}
+.review-actions span {
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+.review-actions span:hover {
+  transform: scale(1.2);
+}
+.add-review {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.add-review h2 {
+  margin-top: 0;
+}
+.add-review input, .add-review textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.add-review button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.add-review button:hover {
+  background-color: #0056b3;
+}
